@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login/ui/cadastro_page.dart';
+import 'package:login/ui/recuperar_senha_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -181,7 +182,8 @@ class LoginPage extends StatelessWidget {
                           children: [
 
                             GestureDetector(
-                              onTap: () {Navigator.push(context, 
+                              onTap: () {
+                                Navigator.push(context, 
                                 MaterialPageRoute
                                   (builder: 
                                     (context) => const CadastroPage(),
@@ -198,7 +200,15 @@ class LoginPage extends StatelessWidget {
                             ),
 
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(context, 
+                                MaterialPageRoute
+                                  (builder: 
+                                    (context) => const RecuperarSenhaPage(),
+                                  ),
+                                );
+
+                              },
                               child: const Text(
                                 "Esqueceu a senha?",
                                 style: TextStyle(
