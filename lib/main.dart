@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
-import 'package:login/ui/login_page.dart';
 import 'package:login/ui/load_page.dart';
 
 void main(){

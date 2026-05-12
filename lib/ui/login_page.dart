@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login/ui/cadastro_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -40,7 +41,7 @@ class LoginPage extends StatelessWidget {
                       // LOGO
                       Image.asset(
                         "assets/senai.png",
-                        width: 140,
+                        width: 180,
                       ),
 
                       const SizedBox(height: 10),
@@ -180,7 +181,14 @@ class LoginPage extends StatelessWidget {
                           children: [
 
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {Navigator.push(context, 
+                                MaterialPageRoute
+                                  (builder: 
+                                    (context) => const CadastroPage(),
+                                  ),
+                                );
+
+                              },
                               child: const Text(
                                 "Cadastre-se",
                                 style: TextStyle(
