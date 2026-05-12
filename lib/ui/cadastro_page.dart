@@ -36,7 +36,7 @@ class CadastroPage extends StatelessWidget {
 
                       Image.asset(
                         "assets/senai.png",
-                        width: 170,
+                        width: 180,
                       ),
 
                       const SizedBox(height: 10),
@@ -65,7 +65,13 @@ class CadastroPage extends StatelessWidget {
                         children: [
 
                           // NOME
-                          const Text("Nome:"),
+                          const Text("Nome:", 
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600
+                            ),
+                          ),
+
 
                           const SizedBox(height: 10),
 
@@ -86,7 +92,11 @@ class CadastroPage extends StatelessWidget {
                           const SizedBox(height: 25),
 
                           // SOBRENOME
-                          const Text("Sobrenome:"),
+                          const Text("Sobrenome:", style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600
+                            ),
+                          ),
 
                           const SizedBox(height: 10),
 
@@ -107,7 +117,11 @@ class CadastroPage extends StatelessWidget {
                           const SizedBox(height: 25),
 
                           // EMAIL
-                          const Text("E-mail:"),
+                          const Text("E-mail:", style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600
+                            ),
+                          ),
 
                           const SizedBox(height: 10),
 
@@ -128,7 +142,11 @@ class CadastroPage extends StatelessWidget {
                           const SizedBox(height: 25),
 
                           // TELEFONE
-                          const Text("Telefone:"),
+                          const Text("Telefone:", style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600
+                            ),
+                          ),
 
                           const SizedBox(height: 10),
 
@@ -149,7 +167,11 @@ class CadastroPage extends StatelessWidget {
                           const SizedBox(height: 25),
 
                           // SENHA
-                          const Text("Senha:"),
+                          const Text("Senha:", style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600
+                            ),
+                          ),
 
                           const SizedBox(height: 10),
 
@@ -172,7 +194,11 @@ class CadastroPage extends StatelessWidget {
                           const SizedBox(height: 25),
 
                           // CONFIRMAR SENHA
-                          const Text("Confirmar senha:"),
+                          const Text("Confirmar senha:", style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600
+                            ),
+                          ),
 
                           const SizedBox(height: 10),
 

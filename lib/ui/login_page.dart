@@ -73,7 +73,8 @@ class LoginPage extends StatelessWidget {
                           child: Text(
                             "Faça Login para Acessar o Sistema!",
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                         ),
@@ -83,7 +84,7 @@ class LoginPage extends StatelessWidget {
                         // EMAIL
                         const Text(
                           "Email:",
-                          style: TextStyle(fontWeight: FontWeight.w500),
+                          style: TextStyle(fontWeight: FontWeight.w600),
                         ),
 
                         const SizedBox(height: 10),
@@ -121,7 +122,7 @@ class LoginPage extends StatelessWidget {
                         // SENHA
                         const Text(
                           "Senha:",
-                          style: TextStyle(fontWeight: FontWeight.w500),
+                          style: TextStyle(fontWeight: FontWeight.w600),
                         ),
 
                         const SizedBox(height: 10),

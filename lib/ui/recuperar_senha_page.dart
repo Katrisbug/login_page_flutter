@@ -79,7 +79,7 @@ class RecuperarSenhaPage extends StatelessWidget {
 
                           style: TextStyle(
                             fontSize: 20,
-                            fontWeight: FontWeight.w500,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                       ),
@@ -91,6 +91,7 @@ class RecuperarSenhaPage extends StatelessWidget {
                         "Email:",
                         style: TextStyle(
                           fontSize: 16,
+                          fontWeight: FontWeight.w600, 
                         ),
                       ),
 
